@@ -10,11 +10,6 @@ This project aims to fine-tune the Llama-2 language model using Hugging Face's T
    ```HUGGING_FACE_API_KEY = "your_HF_API_key"```<br>
    The code for training (train.py) has the code to pick this API key up.<br>
 
-*PS:* Google Colab has added a new Secrets function to store your API keys. Add Name, Value to the Secrets, and run the following:
-  ```python
-  from google.colab import userdata
-  userdata.get('secretName')
-  ```
 
 3. Install the required packages using the following command:
 
